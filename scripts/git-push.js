@@ -1,5 +1,5 @@
 import git from 'isomorphic-git';
-import http from 'isomorphic-git/http/node/index.cjs';
+import http from 'isomorphic-git/http/node';
 import fs from 'node:fs';
 
 const token = process.env.GH_TOKEN;
